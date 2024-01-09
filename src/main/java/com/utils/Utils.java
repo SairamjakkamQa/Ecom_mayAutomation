@@ -1,7 +1,9 @@
 package com.utils;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 public class Utils {
 
-	//Store all commonly used methods for method reusablity purpose 
 	
 }
