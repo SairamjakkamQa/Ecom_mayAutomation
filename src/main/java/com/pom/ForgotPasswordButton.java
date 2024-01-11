@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.TestBase;
 
-public class Loginfail extends TestBase {
+public class ForgotPasswordButton extends TestBase {
 	@FindBy(id = "si-email")
 	WebElement Email;
 	@FindBy(id = "si-password")
@@ -16,7 +16,7 @@ public class Loginfail extends TestBase {
 	//@FindBy(xpath = "//button[normalize-space()='Sign in']")
 	//WebElement Login;
 
-	public Loginfail() {
+	public ForgotPasswordButton() {
 		PageFactory.initElements(driver, this);
 	}
 

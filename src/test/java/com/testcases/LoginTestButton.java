@@ -20,13 +20,13 @@ import com.utils.Utils;
 
 
 
-public class Logintest1 extends TestBase{
+public class LoginTestButton extends TestBase{
 	LoginFunctionality LF;
 	private final String sheetname = "Sheet1";
 	
 	
 		
-	public Logintest1() {
+	public LoginTestButton() {
 		super();   //invokes the parent class constructor
 	}
 	
@@ -45,7 +45,7 @@ public class Logintest1 extends TestBase{
 
 	}
 
-	@Test(dataProvider = "dataload",dataProviderClass = Logintest1.class)
+	@Test(dataProvider = "dataload",dataProviderClass = LoginTestButton.class)
 
 	public void loginvalidation(String username,String password) throws Throwable {
 		LF.Loginverification(username,password);

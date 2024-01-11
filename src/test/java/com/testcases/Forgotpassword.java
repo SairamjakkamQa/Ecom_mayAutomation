@@ -8,14 +8,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.base.TestBase;
+import com.pom.ForgotPasswordButton;
 import com.pom.LoginData;
-import com.pom.Loginfail;
 
-public class LoginfailT extends TestBase {
 
-	Loginfail lf;
+public class Forgotpassword extends TestBase {
 
-	public LoginfailT() {
+	ForgotPasswordButton lf;
+
+	public Forgotpassword() {
 		super();   //invokes the parent class constructor
 	}
 
@@ -24,7 +25,7 @@ public class LoginfailT extends TestBase {
 
 		initialization();
 
-		lf = new Loginfail();
+		lf = new ForgotPasswordButton();
 
 	}
 

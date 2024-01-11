@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.base.TestBase;
-import com.pom.Loginfail;
+
 import com.pom.Signupworking;
 
 public class SignupWork extends TestBase {
@@ -31,7 +31,7 @@ public class SignupWork extends TestBase {
 	public void loginvalidation() {
 		lf.Loginverification();
 		String urltest = driver.getCurrentUrl();
-		Assert.assertEquals(urltest, "https://e-quarz.com/customer/auth/sign-up");
+		Assert.assertEquals(urltest, "https://e-quarz.com/customer/auth/login");
 		
 		
 		

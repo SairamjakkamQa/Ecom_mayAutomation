@@ -55,13 +55,16 @@ public class TestBase {
 //	    
 	  
 
+		
 	}
 
 	public void initialization() {
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		String browsername = prop.getProperty("browser");
 		if (browsername.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ARUN\\Downloads\\chromedriver-win64 (3)\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
+			
 		} //else if (browsername.equals("Edge")) {
 			//driver = new EdgeDriver();
 	//	} 

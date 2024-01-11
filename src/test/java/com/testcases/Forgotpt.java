@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.base.TestBase;
 import com.pom.Forgotp;
-import com.pom.Loginfail;
+
 
 public class Forgotpt extends TestBase{
 
