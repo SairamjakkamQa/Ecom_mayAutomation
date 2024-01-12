@@ -27,7 +27,7 @@ public class TestBase {
 	public TestBase() {
 
 		try {
-			file = new FileInputStream("C:\\Users\\kalya\\git\\Ecom-mayAutomation\\src\\main\\java\\configproperties\\Configprop");
+			file = new FileInputStream("C:\\Users\\King\\git\\Ecom_mayAutomation\\src\\main\\java\\com\\configproperties\\Configprop");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

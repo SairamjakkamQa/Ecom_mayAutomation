@@ -1,4 +1,4 @@
-package Reports;
+package com.reports;
 
 import java.io.File;
 import java.util.List;

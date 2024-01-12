@@ -145,22 +145,9 @@ public class EventListeners extends TestBase implements WebDriverEventListener {
 	@Override
 	public void onException(Throwable throwable, WebDriver driver) {
 		utils.captureAndSaveScreenshot(driver,
-				"C:\\Users\\kalya\\git\\Ecom-mayAutomation\\screenshots.png");
+				"C:\\Users\\King\\git\\Ecom_mayAutomation\\Screenshot\\scr.png");
 
-		// (oR)//
-
-//		if (driver instanceof TakesScreenshot) {
-//			File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//
-//			try {
-//				FileUtils.copyFile(screenshot,
-//						new File(""));
-//			} catch (IOException e) {
-//
-//				e.printStackTrace();
-//			}
-//		}
-//
+		
 		System.out.println("An exception occurred: " + throwable.getMessage());
 	}
 
