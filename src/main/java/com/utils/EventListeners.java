@@ -145,7 +145,7 @@ public class EventListeners extends TestBase implements WebDriverEventListener {
 	@Override
 	public void onException(Throwable throwable, WebDriver driver) {
 		utils.captureAndSaveScreenshot(driver,
-				"C:\\Users\\DELL\\git\\EmpireHome_Crm_05\\Empirehomecrm\\Screenshots.png");
+				"C:\\Users\\kalya\\git\\Ecom-mayAutomation\\screenshots.png");
 
 		// (oR)//
 
@@ -154,7 +154,7 @@ public class EventListeners extends TestBase implements WebDriverEventListener {
 //
 //			try {
 //				FileUtils.copyFile(screenshot,
-//						new File("C:\\Users\\DELL\\git\\EmpireHome_Crm_05\\Empirehomecrm\\Screenshots.png"));
+//						new File(""));
 //			} catch (IOException e) {
 //
 //				e.printStackTrace();

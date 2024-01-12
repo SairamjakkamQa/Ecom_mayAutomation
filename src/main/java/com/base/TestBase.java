@@ -67,7 +67,7 @@ public class TestBase {
 
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 
 		extentreports.flush();
 

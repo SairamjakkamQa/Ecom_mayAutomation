@@ -31,7 +31,7 @@ public class utils extends TestBase {
 
 	public static String[][] Data(String sheetname1) throws IOException {
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\kalya\\git\\Ecom-mayAutomation\\testdata\\Ecom.xlsx");
+				"C:\\Users\\kalya\\git\\Ecom-mayAutomation\\target\\SAI1234.xlsx");
 		Workbook workbook = new XSSFWorkbook(fis);
 		Sheet sheet1 = workbook.getSheet(sheetname1);
 
@@ -162,4 +162,7 @@ public class utils extends TestBase {
 
 	}
 
-}
+	
+	}
+
+

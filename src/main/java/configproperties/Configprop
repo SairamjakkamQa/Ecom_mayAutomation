@@ -1,3 +1,13 @@
 browser=chrome
 
 url=https://e-quarz.com/customer/auth/sign-up
+
+ 
+FirstName=Sai
+LastName=Ram
+EmailAddress=sairam1996@gmail.com
+PhoneNumber=9392491489
+Password=Sai123@Ram
+ConfirmPassword=Sai123@Ram
+ 
+ 

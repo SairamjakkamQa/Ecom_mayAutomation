@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="signupvalidation"/>
+          <include name="signup_navigate_to_sign_in_page_when_clicks_on_sign_in_button"/>
         </methods>
       </class> <!-- com.testcases.Signup_test -->
     </classes>
