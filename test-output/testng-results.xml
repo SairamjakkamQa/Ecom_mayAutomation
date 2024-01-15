@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-12T10:58:56 IST" name="Default suite" finished-at="2024-01-12T10:59:32 IST" duration-ms="36766">
+  <suite started-at="2024-01-15T12:01:06 IST" name="Default suite" finished-at="2024-01-15T12:02:31 IST" duration-ms="85688">
     <groups>
     </groups>
-    <test started-at="2024-01-12T10:58:56 IST" name="Default test" finished-at="2024-01-12T10:59:32 IST" duration-ms="36766">
-      <class name="com.testcases.Signup_test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Signup_test@a82c5f1]" started-at="2024-01-12T10:58:56 IST" name="setup" finished-at="2024-01-12T10:59:23 IST" duration-ms="26705" status="PASS">
+    <test started-at="2024-01-15T12:01:06 IST" name="Default test" finished-at="2024-01-15T12:02:31 IST" duration-ms="85688">
+      <class name="com.testcases.search_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:01:06 IST" name="setup" finished-at="2024-01-15T12:01:32 IST" duration-ms="26467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="signup_navigate_to_sign_in_page_when_clicks_on_sign_in_button()[pri:4, instance:com.testcases.Signup_test@a82c5f1]" started-at="2024-01-12T10:59:23 IST" name="signup_navigate_to_sign_in_page_when_clicks_on_sign_in_button" finished-at="2024-01-12T10:59:32 IST" duration-ms="9848" status="PASS">
+        <test-method signature="search_the_product_and_able_to_see_the_related_matches()[pri:1, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:01:32 IST" name="search_the_product_and_able_to_see_the_related_matches" finished-at="2024-01-15T12:01:49 IST" duration-ms="16980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signup_navigate_to_sign_in_page_when_clicks_on_sign_in_button -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.Signup_test@a82c5f1]" started-at="2024-01-12T10:59:32 IST" name="teardown" finished-at="2024-01-12T10:59:32 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- search_the_product_and_able_to_see_the_related_matches -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:01:49 IST" name="teardown" finished-at="2024-01-15T12:01:49 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.testcases.Signup_test -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:01:49 IST" name="setup" finished-at="2024-01-15T12:02:09 IST" duration-ms="19697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="without_providing_data_user_clicks_on_search_button()[pri:2, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:02:09 IST" name="without_providing_data_user_clicks_on_search_button" finished-at="2024-01-15T12:02:15 IST" duration-ms="5481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- without_providing_data_user_clicks_on_search_button -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:02:15 IST" name="teardown" finished-at="2024-01-15T12:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:02:15 IST" name="setup" finished-at="2024-01-15T12:02:31 IST" duration-ms="16375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalid_data_in_search_field()[pri:3, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:02:31 IST" name="invalid_data_in_search_field" finished-at="2024-01-15T12:02:31 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_data_in_search_field -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.search_Test@e3c0e40]" started-at="2024-01-15T12:02:31 IST" name="teardown" finished-at="2024-01-15T12:02:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.search_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

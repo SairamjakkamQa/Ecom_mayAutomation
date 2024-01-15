@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.Signup_test">
+      <class name="com.testcases.search_Test">
         <methods>
-          <include name="setup"/>
+          <include name="invalid_data_in_search_field"/>
           <include name="teardown"/>
-          <include name="signup_navigate_to_sign_in_page_when_clicks_on_sign_in_button"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.testcases.Signup_test -->
+      </class> <!-- com.testcases.search_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

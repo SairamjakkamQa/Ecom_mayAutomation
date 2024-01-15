@@ -1,6 +1,10 @@
 browser=chrome
-
 url=https://e-quarz.com/customer/auth/sign-up
+
+
+
+
+
 
  
 FirstName=Sai
@@ -11,3 +15,15 @@ Password=Sai123@Ram
 ConfirmPassword=Sai123@Ram
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+url1=https://e-quarz.com/
+brandname=redmi
+invalid_data=123@@456
