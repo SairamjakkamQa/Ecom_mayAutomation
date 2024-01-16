@@ -11,6 +11,10 @@ import org.openqa.selenium.support.PageFactory;
 import com.base.TestBase;
 
 public class Forgotp extends TestBase{
+	@FindBy(xpath = "//div[@class='navbar-tool-icon-box bg-secondary']//div[@class='navbar-tool-icon-box bg-secondary']")
+	WebElement view;
+	@FindBy(xpath = "//a[normalize-space()='Sign in']")
+	WebElement sigin;
 	@FindBy(id="si-email")
 	WebElement email;
 	@FindBy(id="si-password")

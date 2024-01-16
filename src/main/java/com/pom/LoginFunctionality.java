@@ -8,6 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 import com.base.TestBase;
 
 public class LoginFunctionality extends TestBase {
+	@FindBy(xpath = "//div[@class='navbar-tool-icon-box bg-secondary']//div[@class='navbar-tool-icon-box bg-secondary']//*[name()='svg']")
+	WebElement show;
+	@FindBy(xpath = "//a[normalize-space()='Sign in']")
+	WebElement sign;
 	@FindBy(id = "si-email")
 	WebElement Email;
 	@FindBy(id = "si-password")
@@ -21,6 +25,8 @@ public class LoginFunctionality extends TestBase {
 
 	public void Loginverification(String username,String pass) throws Throwable {
 		
+		show.click();
+		sign.click();
 		Email.sendKeys(username);
 		password.sendKeys(pass);
 		Login.click();

@@ -1,11 +1,17 @@
 browser=chrome
 
-url=https://e-quarz.com/customer/auth/login
+login
+
+url=https://e-quarz.com/
 username=pvennalareddy.marolix@gmail.com
 password=vennala123
 
+forgotpassword
+
 username1=pvennalareddy.marolix@gmail.com
 password1=
+
+sigup
 
 firstname=Praveen
 lastname=kumar
@@ -13,6 +19,27 @@ eamiaddres=praveen2789.marolix@gmail.com
 phonenumber=9786543213
 password2=vennala1234
 conformpassword=vennala1234
+
+editpersonal data
+
+firstnameSig=Praveen
+lastnameSig=kumar
+emailid=king1@gmail.com
+pnumberforsigup=9998885552
+pword=king1234
+cpword=king1234
+username3=king1@gmail.com
+password3=king1234
+firstname1=ram
+lastname1=sai
+number=987654222
+posswordChange=vennala1234
+conposswordChange=vennala1234
+
+delete data
+
+username4=king1@gmail.com
+password4=vennala1234
 
 
 
