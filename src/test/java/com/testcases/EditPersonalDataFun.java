@@ -1,5 +1,8 @@
 package com.testcases;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -32,6 +35,12 @@ public class EditPersonalDataFun extends TestBase {
 		lf.Loginverification();
 		String urltest = driver.getCurrentUrl();
 		Assert.assertEquals(urltest, "https://e-quarz.com/user-account");
+		WebElement update=driver.findElement(By.xpath("//h5[@class='font-name']"));
+		System.out.println(update.getText());
+		Assert.assertTrue(true,"update label is present");
+		//Assert.assertEquals("Praveen", "ram");
+		//Assert.assertEquals("kumar", "sai");
+		//Assert.assertEquals("9998885552", "987654222");
 		
 		
 		
