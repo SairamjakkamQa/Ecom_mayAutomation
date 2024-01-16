@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\King\AppData\Local\Temp\testng-eclipse--368991880\testng-customsuite.xml</span>
+                    <span>C:\Users\King\AppData\Local\Temp\testng-eclipse-548522096\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.testcases.HomepageTest" class="method navigator-link" hash-for-method="facebookvalidation">facebookvalidation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.testcases.WishlistTest" class="method navigator-link" hash-for-method="multipleproductsvalidation">multipleproductsvalidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,22 +122,46 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.testcases.HomepageTest</span>
+              <span class="class-name">com.testcases.WishlistTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="facebookvalidation">
-                  </a> <!-- facebookvalidation -->
-                  <span class="method-name">facebookvalidation</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.facebook.co/] but found [https://www.facebook.com/]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at com.testcases.HomepageTest.facebookvalidation(HomepageTest.java:216)
+                  <a name="multipleproductsvalidation">
+                  </a> <!-- multipleproductsvalidation -->
+                  <span class="method-name">multipleproductsvalidation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[@class=&apos;headerTitle my-3 text-center&apos;]&quot;}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c509753cb9112074ca887f722ea531d, findElement {using=xpath, value=//h3[@class=&apos;headerTitle my-3 text-center&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\King\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50582/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c509753cb9112074ca887f722ea531d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.testcases.WishlistTest.multipleproductsvalidation(WishlistTest.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,7 +199,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\King\AppData\Local\Temp\testng-eclipse--368991880\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\King\AppData\Local\Temp\testng-eclipse-548522096\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,11 +208,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testcases.HomepageTest&quot;&gt;
+      &lt;class name=&quot;com.testcases.WishlistTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;facebookvalidation&quot;/&gt;
+          &lt;include name=&quot;multipleproductsvalidation&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.testcases.HomepageTest --&gt;
+      &lt;/class&gt; &lt;!-- com.testcases.WishlistTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -230,14 +254,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'facebookvalidation')
-data.setCell(0, 2, 'com.testcases.HomepageTest')
-data.setCell(0, 3, 5853);
+data.setCell(0, 1, 'multipleproductsvalidation')
+data.setCell(0, 2, 'com.testcases.WishlistTest')
+data.setCell(0, 3, 280863);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -252,53 +276,15 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">21 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.testcases.HomepageTest</span>
+              <span class="ignored-class-name">com.testcases.WishlistTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">TopRatedProductsvalidation</span>
+                <span class="ignored-method-name">removeproductvalidation</span>
                 <br/>
-                <span class="ignored-method-name">privacypolicyvalidation</span>
-                <br/>
-                <span class="ignored-method-name">ProfileInfovalidation</span>
-                <br/>
-                <span class="ignored-method-name">supportticketvalidation</span>
-                <br/>
-                <span class="ignored-method-name">termconditionvalidations</span>
-                <br/>
-                <span class="ignored-method-name">Cancellationpolicyvalidation</span>
-                <br/>
-                <span class="ignored-method-name">Returnpolicyvalidation</span>
-                <br/>
-                <span class="ignored-method-name">twittervalidation</span>
-                <br/>
-                <span class="ignored-method-name">buynowvalidation</span>
-                <br/>
-                <span class="ignored-method-name">googlevalidation</span>
-                <br/>
-                <span class="ignored-method-name">LatestProductsvalidation</span>
-                <br/>
-                <span class="ignored-method-name">WishListWishListvalidation</span>
-                <br/>
-                <span class="ignored-method-name">emailvalidation</span>
-                <br/>
-                <span class="ignored-method-name">instagramvalidation</span>
-                <br/>
-                <span class="ignored-method-name">Refundpolicyvalidation</span>
-                <br/>
-                <span class="ignored-method-name">BestSellingProductsvalidation</span>
-                <br/>
-                <span class="ignored-method-name">subscribebuttonvalidation</span>
-                <br/>
-                <span class="ignored-method-name">TracOrdervalidation</span>
-                <br/>
-                <span class="ignored-method-name">linkedinvalidation</span>
-                <br/>
-                <span class="ignored-method-name">FeaturedProductsvalidation</span>
-                <br/>
-                <span class="ignored-method-name">pinterestvalidation</span>
+                <span class="ignored-method-name">wishlistandbuyvalidation</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -310,7 +296,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testcases.HomepageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testcases.WishlistTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -318,12 +304,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">facebookvalidation</span>
-                <span class="method-start">11739 ms</span>
+                <span class="method-name">multipleproductsvalidation</span>
+                <span class="method-start">35791 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">close</span>
-                <span class="method-start">17597 ms</span>
+                <span class="method-name">teardown</span>
+                <span class="method-start">316668 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
